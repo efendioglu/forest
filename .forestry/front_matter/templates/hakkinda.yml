@@ -1,4 +1,35 @@
 ---
 label: Hakkında
 hide_body: false
-fields: []
+fields:
+- name: ad
+  type: text
+  config:
+    required: false
+  label: Ad
+  description: Adınız
+- name: cinsiyet
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Erkek
+    - Kadın
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Cinsiyet
+  description: Cinsiyetiniz
+- name: makale
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Makale
+  description: Makale yazınız
