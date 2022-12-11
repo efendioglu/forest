@@ -33,3 +33,5 @@ fields:
       format: markdown
   label: Makale
   description: Makale yazınız
+pages:
+- README.md

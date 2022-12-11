@@ -1,4 +1,10 @@
 ---
+cinsiyet: Erkek
+makale: |-
+  asddsaasdasd
+  asdsdasdasd
+  asdasdasd
+ad: Kemal
 
 ---
 # Hakkımda
